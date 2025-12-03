@@ -3,7 +3,7 @@ name: Deploy DocFX to GitHub Pages
 on:
   push:
     branches:
-      - TestDocFx
+      - TestDoxFx
 
 permissions:
   contents: read
