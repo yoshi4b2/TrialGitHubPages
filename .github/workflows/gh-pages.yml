@@ -22,7 +22,7 @@ jobs:
           docfx docfx\docfx.json
 
       - name: Upload DocFX packages
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           name: docfx_site
           path: ${{ github.workspace }}\docfx\_site
