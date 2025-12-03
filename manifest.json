@@ -1,0 +1,214 @@
+{
+  "source_base_path": "C:/Users/yoshi_2gsaced/WorkSpace/TestDocFx/myDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyNamespace.MyClass.Del.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyNamespace.MyClass.Del.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MyNamespace.MyClass.Del",
+      "Summary": "<p sourcefile=\"api/MyNamespace.MyClass.Del.yml\" sourcestartlinenumber=\"1\">デリゲート Del の説明をここに入力してください。\n生成される ID 文字列は &quot;T:MyNamespace.MyClass.Del&quot; です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyNamespace.MyClass.Nested.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyNamespace.MyClass.Nested.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MyNamespace.MyClass.Nested",
+      "Summary": "<p sourcefile=\"api/MyNamespace.MyClass.Nested.yml\" sourcestartlinenumber=\"1\">ネストされたクラス Nested の説明をここに入力してください。\n生成される ID 文字列は &quot;T:MyNamespace.MyClass.Nested&quot; です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyNamespace.MyClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyNamespace.MyClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MyNamespace.MyClass",
+      "Summary": "<p sourcefile=\"api/MyNamespace.MyClass.yml\" sourcestartlinenumber=\"1\">クラス X の説明をここに入力してください。\n生成される ID 文字列は &quot;T:MyNamespace.MyClass&quot; です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyNamespace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MyNamespace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestDocFx.MyClass.Del.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestDocFx.MyClass.Del.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestDocFx.MyClass.Del",
+      "Summary": "<p sourcefile=\"api/TestDocFx.MyClass.Del.yml\" sourcestartlinenumber=\"1\">Enter description for delegate.\nID string generated is &quot;T:MyNamespace.MyClass.Del&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestDocFx.MyClass.Nested.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestDocFx.MyClass.Nested.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestDocFx.MyClass.Nested",
+      "Summary": "<p sourcefile=\"api/TestDocFx.MyClass.Nested.yml\" sourcestartlinenumber=\"1\">Enter description for class Nested.\nID string generated is &quot;T:MyNamespace.MyClass.Nested&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestDocFx.MyClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestDocFx.MyClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestDocFx.MyClass",
+      "Summary": "<p sourcefile=\"api/TestDocFx.MyClass.yml\" sourcestartlinenumber=\"1\">Enter description here for class X.\nID string generated is &quot;T:MyNamespace.MyClass&quot;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestDocFx.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestDocFx.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestDocFx.User",
+      "Summary": "<p sourcefile=\"api/TestDocFx.User.yml\" sourcestartlinenumber=\"1\">ユーザーを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestDocFx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestDocFx.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TestDocFx",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

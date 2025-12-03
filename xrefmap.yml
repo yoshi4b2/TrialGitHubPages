@@ -1,0 +1,386 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: MyNamespace
+  name: MyNamespace
+  href: api/MyNamespace.html
+  commentId: N:MyNamespace
+  fullName: MyNamespace
+  nameWithType: MyNamespace
+- uid: MyNamespace.MyClass
+  name: MyClass
+  href: api/MyNamespace.MyClass.html
+  commentId: T:MyNamespace.MyClass
+  fullName: MyNamespace.MyClass
+  nameWithType: MyClass
+- uid: MyNamespace.MyClass.#ctor
+  name: MyClass()
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass__ctor
+  commentId: M:MyNamespace.MyClass.#ctor
+  name.vb: New()
+  fullName: MyNamespace.MyClass.MyClass()
+  fullName.vb: MyNamespace.MyClass.New()
+  nameWithType: MyClass.MyClass()
+  nameWithType.vb: MyClass.New()
+- uid: MyNamespace.MyClass.#ctor(System.Int32)
+  name: MyClass(int)
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass__ctor_System_Int32_
+  commentId: M:MyNamespace.MyClass.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: MyNamespace.MyClass.MyClass(int)
+  fullName.vb: MyNamespace.MyClass.New(Integer)
+  nameWithType: MyClass.MyClass(int)
+  nameWithType.vb: MyClass.New(Integer)
+- uid: MyNamespace.MyClass.#ctor*
+  name: MyClass
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass__ctor_
+  commentId: Overload:MyNamespace.MyClass.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MyNamespace.MyClass.MyClass
+  fullName.vb: MyNamespace.MyClass.New
+  nameWithType: MyClass.MyClass
+  nameWithType.vb: MyClass.New
+- uid: MyNamespace.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])
+  name: AnotherMethod(short[], int[,])
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_AnotherMethod_System_Int16___System_Int32_0__0___
+  commentId: M:MyNamespace.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])
+  name.vb: AnotherMethod(Short(), Integer(,))
+  fullName: MyNamespace.MyClass.AnotherMethod(short[], int[,])
+  fullName.vb: MyNamespace.MyClass.AnotherMethod(Short(), Integer(,))
+  nameWithType: MyClass.AnotherMethod(short[], int[,])
+  nameWithType.vb: MyClass.AnotherMethod(Short(), Integer(,))
+- uid: MyNamespace.MyClass.AnotherMethod*
+  name: AnotherMethod
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_AnotherMethod_
+  commentId: Overload:MyNamespace.MyClass.AnotherMethod
+  isSpec: "True"
+  fullName: MyNamespace.MyClass.AnotherMethod
+  nameWithType: MyClass.AnotherMethod
+- uid: MyNamespace.MyClass.Del
+  name: MyClass.Del
+  href: api/MyNamespace.MyClass.Del.html
+  commentId: T:MyNamespace.MyClass.Del
+  fullName: MyNamespace.MyClass.Del
+  nameWithType: MyClass.Del
+- uid: MyNamespace.MyClass.Func
+  name: Func()
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Func
+  commentId: M:MyNamespace.MyClass.Func
+  fullName: MyNamespace.MyClass.Func()
+  nameWithType: MyClass.Func()
+- uid: MyNamespace.MyClass.Func*
+  name: Func
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Func_
+  commentId: Overload:MyNamespace.MyClass.Func
+  isSpec: "True"
+  fullName: MyNamespace.MyClass.Func
+  nameWithType: MyClass.Func
+- uid: MyNamespace.MyClass.Item(System.String)
+  name: this[string]
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Item_System_String_
+  commentId: P:MyNamespace.MyClass.Item(System.String)
+  name.vb: this[](String)
+  fullName: MyNamespace.MyClass.this[string]
+  fullName.vb: MyNamespace.MyClass.this[](String)
+  nameWithType: MyClass.this[string]
+  nameWithType.vb: MyClass.this[](String)
+- uid: MyNamespace.MyClass.Item*
+  name: this
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Item_
+  commentId: Overload:MyNamespace.MyClass.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: MyNamespace.MyClass.this
+  fullName.vb: MyNamespace.MyClass.this[]
+  nameWithType: MyClass.this
+  nameWithType.vb: MyClass.this[]
+- uid: MyNamespace.MyClass.Message
+  name: Message
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Message
+  commentId: F:MyNamespace.MyClass.Message
+  fullName: MyNamespace.MyClass.Message
+  nameWithType: MyClass.Message
+- uid: MyNamespace.MyClass.Nested
+  name: MyClass.Nested
+  href: api/MyNamespace.MyClass.Nested.html
+  commentId: T:MyNamespace.MyClass.Nested
+  fullName: MyNamespace.MyClass.Nested
+  nameWithType: MyClass.Nested
+- uid: MyNamespace.MyClass.OnHappened
+  name: OnHappened
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_OnHappened
+  commentId: E:MyNamespace.MyClass.OnHappened
+  fullName: MyNamespace.MyClass.OnHappened
+  nameWithType: MyClass.OnHappened
+- uid: MyNamespace.MyClass.PI
+  name: PI
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_PI
+  commentId: F:MyNamespace.MyClass.PI
+  fullName: MyNamespace.MyClass.PI
+  nameWithType: MyClass.PI
+- uid: MyNamespace.MyClass.Prop
+  name: Prop
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Prop
+  commentId: P:MyNamespace.MyClass.Prop
+  fullName: MyNamespace.MyClass.Prop
+  nameWithType: MyClass.Prop
+- uid: MyNamespace.MyClass.Prop*
+  name: Prop
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_Prop_
+  commentId: Overload:MyNamespace.MyClass.Prop
+  isSpec: "True"
+  fullName: MyNamespace.MyClass.Prop
+  nameWithType: MyClass.Prop
+- uid: MyNamespace.MyClass.op_Addition(MyNamespace.MyClass,MyNamespace.MyClass)
+  name: operator +(MyClass, MyClass)
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_op_Addition_MyNamespace_MyClass_MyNamespace_MyClass_
+  commentId: M:MyNamespace.MyClass.op_Addition(MyNamespace.MyClass,MyNamespace.MyClass)
+  name.vb: +(MyClass, MyClass)
+  fullName: MyNamespace.MyClass.operator +(MyNamespace.MyClass, MyNamespace.MyClass)
+  fullName.vb: MyNamespace.MyClass.+(MyNamespace.MyClass, MyNamespace.MyClass)
+  nameWithType: MyClass.operator +(MyClass, MyClass)
+  nameWithType.vb: MyClass.+(MyClass, MyClass)
+- uid: MyNamespace.MyClass.op_Addition*
+  name: operator +
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_op_Addition_
+  commentId: Overload:MyNamespace.MyClass.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: MyNamespace.MyClass.operator +
+  fullName.vb: MyNamespace.MyClass.+
+  nameWithType: MyClass.operator +
+  nameWithType.vb: MyClass.+
+- uid: MyNamespace.MyClass.op_Explicit(MyNamespace.MyClass)~System.Int32
+  name: explicit operator int(MyClass)
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_op_Explicit_MyNamespace_MyClass__System_Int32
+  commentId: M:MyNamespace.MyClass.op_Explicit(MyNamespace.MyClass)~System.Int32
+  name.vb: CType(MyClass)
+  fullName: MyNamespace.MyClass.explicit operator int(MyNamespace.MyClass)
+  fullName.vb: MyNamespace.MyClass.CType(MyNamespace.MyClass)
+  nameWithType: MyClass.explicit operator int(MyClass)
+  nameWithType.vb: MyClass.CType(MyClass)
+- uid: MyNamespace.MyClass.op_Explicit*
+  name: explicit operator
+  href: api/MyNamespace.MyClass.html#MyNamespace_MyClass_op_Explicit_
+  commentId: Overload:MyNamespace.MyClass.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: MyNamespace.MyClass.explicit operator
+  fullName.vb: MyNamespace.MyClass.CType
+  nameWithType: MyClass.explicit operator
+  nameWithType.vb: MyClass.CType
+- uid: TestDocFx
+  name: TestDocFx
+  href: api/TestDocFx.html
+  commentId: N:TestDocFx
+  fullName: TestDocFx
+  nameWithType: TestDocFx
+- uid: TestDocFx.MyClass
+  name: MyClass
+  href: api/TestDocFx.MyClass.html
+  commentId: T:TestDocFx.MyClass
+  fullName: TestDocFx.MyClass
+  nameWithType: MyClass
+- uid: TestDocFx.MyClass.#ctor
+  name: MyClass()
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass__ctor
+  commentId: M:TestDocFx.MyClass.#ctor
+  name.vb: New()
+  fullName: TestDocFx.MyClass.MyClass()
+  fullName.vb: TestDocFx.MyClass.New()
+  nameWithType: MyClass.MyClass()
+  nameWithType.vb: MyClass.New()
+- uid: TestDocFx.MyClass.#ctor(System.Int32)
+  name: MyClass(int)
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass__ctor_System_Int32_
+  commentId: M:TestDocFx.MyClass.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: TestDocFx.MyClass.MyClass(int)
+  fullName.vb: TestDocFx.MyClass.New(Integer)
+  nameWithType: MyClass.MyClass(int)
+  nameWithType.vb: MyClass.New(Integer)
+- uid: TestDocFx.MyClass.#ctor*
+  name: MyClass
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass__ctor_
+  commentId: Overload:TestDocFx.MyClass.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TestDocFx.MyClass.MyClass
+  fullName.vb: TestDocFx.MyClass.New
+  nameWithType: MyClass.MyClass
+  nameWithType.vb: MyClass.New
+- uid: TestDocFx.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])
+  name: AnotherMethod(short[], int[,])
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_AnotherMethod_System_Int16___System_Int32_0__0___
+  commentId: M:TestDocFx.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])
+  name.vb: AnotherMethod(Short(), Integer(,))
+  fullName: TestDocFx.MyClass.AnotherMethod(short[], int[,])
+  fullName.vb: TestDocFx.MyClass.AnotherMethod(Short(), Integer(,))
+  nameWithType: MyClass.AnotherMethod(short[], int[,])
+  nameWithType.vb: MyClass.AnotherMethod(Short(), Integer(,))
+- uid: TestDocFx.MyClass.AnotherMethod*
+  name: AnotherMethod
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_AnotherMethod_
+  commentId: Overload:TestDocFx.MyClass.AnotherMethod
+  isSpec: "True"
+  fullName: TestDocFx.MyClass.AnotherMethod
+  nameWithType: MyClass.AnotherMethod
+- uid: TestDocFx.MyClass.Del
+  name: MyClass.Del
+  href: api/TestDocFx.MyClass.Del.html
+  commentId: T:TestDocFx.MyClass.Del
+  fullName: TestDocFx.MyClass.Del
+  nameWithType: MyClass.Del
+- uid: TestDocFx.MyClass.Func
+  name: Func()
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Func
+  commentId: M:TestDocFx.MyClass.Func
+  fullName: TestDocFx.MyClass.Func()
+  nameWithType: MyClass.Func()
+- uid: TestDocFx.MyClass.Func*
+  name: Func
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Func_
+  commentId: Overload:TestDocFx.MyClass.Func
+  isSpec: "True"
+  fullName: TestDocFx.MyClass.Func
+  nameWithType: MyClass.Func
+- uid: TestDocFx.MyClass.Item(System.String)
+  name: this[string]
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Item_System_String_
+  commentId: P:TestDocFx.MyClass.Item(System.String)
+  name.vb: this[](String)
+  fullName: TestDocFx.MyClass.this[string]
+  fullName.vb: TestDocFx.MyClass.this[](String)
+  nameWithType: MyClass.this[string]
+  nameWithType.vb: MyClass.this[](String)
+- uid: TestDocFx.MyClass.Item*
+  name: this
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Item_
+  commentId: Overload:TestDocFx.MyClass.Item
+  isSpec: "True"
+  name.vb: this[]
+  fullName: TestDocFx.MyClass.this
+  fullName.vb: TestDocFx.MyClass.this[]
+  nameWithType: MyClass.this
+  nameWithType.vb: MyClass.this[]
+- uid: TestDocFx.MyClass.Message
+  name: Message
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Message
+  commentId: F:TestDocFx.MyClass.Message
+  fullName: TestDocFx.MyClass.Message
+  nameWithType: MyClass.Message
+- uid: TestDocFx.MyClass.Nested
+  name: MyClass.Nested
+  href: api/TestDocFx.MyClass.Nested.html
+  commentId: T:TestDocFx.MyClass.Nested
+  fullName: TestDocFx.MyClass.Nested
+  nameWithType: MyClass.Nested
+- uid: TestDocFx.MyClass.OnHappened
+  name: OnHappened
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_OnHappened
+  commentId: E:TestDocFx.MyClass.OnHappened
+  fullName: TestDocFx.MyClass.OnHappened
+  nameWithType: MyClass.OnHappened
+- uid: TestDocFx.MyClass.PI
+  name: PI
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_PI
+  commentId: F:TestDocFx.MyClass.PI
+  fullName: TestDocFx.MyClass.PI
+  nameWithType: MyClass.PI
+- uid: TestDocFx.MyClass.Prop
+  name: Prop
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Prop
+  commentId: P:TestDocFx.MyClass.Prop
+  fullName: TestDocFx.MyClass.Prop
+  nameWithType: MyClass.Prop
+- uid: TestDocFx.MyClass.Prop*
+  name: Prop
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_Prop_
+  commentId: Overload:TestDocFx.MyClass.Prop
+  isSpec: "True"
+  fullName: TestDocFx.MyClass.Prop
+  nameWithType: MyClass.Prop
+- uid: TestDocFx.MyClass.op_Addition(TestDocFx.MyClass,TestDocFx.MyClass)
+  name: operator +(MyClass, MyClass)
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_op_Addition_TestDocFx_MyClass_TestDocFx_MyClass_
+  commentId: M:TestDocFx.MyClass.op_Addition(TestDocFx.MyClass,TestDocFx.MyClass)
+  name.vb: +(MyClass, MyClass)
+  fullName: TestDocFx.MyClass.operator +(TestDocFx.MyClass, TestDocFx.MyClass)
+  fullName.vb: TestDocFx.MyClass.+(TestDocFx.MyClass, TestDocFx.MyClass)
+  nameWithType: MyClass.operator +(MyClass, MyClass)
+  nameWithType.vb: MyClass.+(MyClass, MyClass)
+- uid: TestDocFx.MyClass.op_Addition*
+  name: operator +
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_op_Addition_
+  commentId: Overload:TestDocFx.MyClass.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: TestDocFx.MyClass.operator +
+  fullName.vb: TestDocFx.MyClass.+
+  nameWithType: MyClass.operator +
+  nameWithType.vb: MyClass.+
+- uid: TestDocFx.MyClass.op_Explicit(TestDocFx.MyClass)~System.Int32
+  name: explicit operator int(MyClass)
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_op_Explicit_TestDocFx_MyClass__System_Int32
+  commentId: M:TestDocFx.MyClass.op_Explicit(TestDocFx.MyClass)~System.Int32
+  name.vb: CType(MyClass)
+  fullName: TestDocFx.MyClass.explicit operator int(TestDocFx.MyClass)
+  fullName.vb: TestDocFx.MyClass.CType(TestDocFx.MyClass)
+  nameWithType: MyClass.explicit operator int(MyClass)
+  nameWithType.vb: MyClass.CType(MyClass)
+- uid: TestDocFx.MyClass.op_Explicit*
+  name: explicit operator
+  href: api/TestDocFx.MyClass.html#TestDocFx_MyClass_op_Explicit_
+  commentId: Overload:TestDocFx.MyClass.op_Explicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: TestDocFx.MyClass.explicit operator
+  fullName.vb: TestDocFx.MyClass.CType
+  nameWithType: MyClass.explicit operator
+  nameWithType.vb: MyClass.CType
+- uid: TestDocFx.User
+  name: User
+  href: api/TestDocFx.User.html
+  commentId: T:TestDocFx.User
+  fullName: TestDocFx.User
+  nameWithType: User
+- uid: TestDocFx.User.GetDisplayName
+  name: GetDisplayName()
+  href: api/TestDocFx.User.html#TestDocFx_User_GetDisplayName
+  commentId: M:TestDocFx.User.GetDisplayName
+  fullName: TestDocFx.User.GetDisplayName()
+  nameWithType: User.GetDisplayName()
+- uid: TestDocFx.User.GetDisplayName*
+  name: GetDisplayName
+  href: api/TestDocFx.User.html#TestDocFx_User_GetDisplayName_
+  commentId: Overload:TestDocFx.User.GetDisplayName
+  isSpec: "True"
+  fullName: TestDocFx.User.GetDisplayName
+  nameWithType: User.GetDisplayName
+- uid: TestDocFx.User.Id
+  name: Id
+  href: api/TestDocFx.User.html#TestDocFx_User_Id
+  commentId: P:TestDocFx.User.Id
+  fullName: TestDocFx.User.Id
+  nameWithType: User.Id
+- uid: TestDocFx.User.Id*
+  name: Id
+  href: api/TestDocFx.User.html#TestDocFx_User_Id_
+  commentId: Overload:TestDocFx.User.Id
+  isSpec: "True"
+  fullName: TestDocFx.User.Id
+  nameWithType: User.Id
+- uid: TestDocFx.User.Name
+  name: Name
+  href: api/TestDocFx.User.html#TestDocFx_User_Name
+  commentId: P:TestDocFx.User.Name
+  fullName: TestDocFx.User.Name
+  nameWithType: User.Name
+- uid: TestDocFx.User.Name*
+  name: Name
+  href: api/TestDocFx.User.html#TestDocFx_User_Name_
+  commentId: Overload:TestDocFx.User.Name
+  isSpec: "True"
+  fullName: TestDocFx.User.Name
+  nameWithType: User.Name

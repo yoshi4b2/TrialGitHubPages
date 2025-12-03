@@ -1,0 +1,62 @@
+{
+  "api/MyNamespace.MyClass.Del.html": {
+    "href": "api/MyNamespace.MyClass.Del.html",
+    "title": "Delegate MyClass.Del | mysite",
+    "summary": "Delegate MyClass.Del Namespace MyNamespace Assembly TestDocFx.dll デリゲート Del の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass.Del\" です。 public delegate void MyClass.Del(int i) Parameters i int パラメーターの説明。"
+  },
+  "api/MyNamespace.MyClass.Nested.html": {
+    "href": "api/MyNamespace.MyClass.Nested.html",
+    "title": "Class MyClass.Nested | mysite",
+    "summary": "Class MyClass.Nested Namespace MyNamespace Assembly TestDocFx.dll ネストされたクラス Nested の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass.Nested\" です。 public class MyClass.Nested Inheritance object MyClass.Nested Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/MyNamespace.MyClass.html": {
+    "href": "api/MyNamespace.MyClass.html",
+    "title": "Class MyClass | mysite",
+    "summary": "Class MyClass Namespace MyNamespace Assembly TestDocFx.dll クラス X の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass\" です。 public class MyClass Inheritance object MyClass Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MyClass() 最初のコンストラクターの説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.#ctor\" です。 public MyClass() MyClass(int) 2 番目のコンストラクターの説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.#ctor(System.Int32)\" です。 public MyClass(int i) Parameters i int パラメーターの説明。 Fields Message フィールド Message の説明をここに入力してください。 生成される ID 文字列は \"F:MyNamespace.MyClass.Message\" です。 public string? Message Field Value string PI 定数 PI の説明をここに入力してください。 生成される ID 文字列は \"F:MyNamespace.MyClass.PI\" です。 public const double PI = 3.14 Field Value double Properties this[string] インデクサーの説明をここに入力してください。 生成される ID 文字列は \"P:MyNamespace.MyClass.Item(System.String)\" です。 public int this[string s] { get; } Parameters s string Property Value int Prop プロパティの説明をここに入力してください。 生成される ID 文字列は \"P:MyNamespace.MyClass.Prop\" です。 public int Prop { get; set; } Property Value int Methods AnotherMethod(short[], int[,]) メソッド AnotherMethod の説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])\" です。 public int AnotherMethod(short[] array1, int[,] array) Parameters array1 short[] パラメーターの説明。 array int[,] パラメーターの説明。 Returns int 戻り値の説明。 Func() メソッド Func の説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.Func\" です。 public int Func() Returns int 戻り値の説明。 Events OnHappened イベントの説明をここに入力してください。 生成される ID 文字列は \"E:MyNamespace.MyClass.OnHappened\" です。 public event MyClass.Del? OnHappened Event Type MyClass.Del Operators operator +(MyClass, MyClass) 演算子の説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.op_Addition(MyNamespace.MyClass,MyNamespace.MyClass)\" です。 public static MyClass operator +(MyClass first, MyClass second) Parameters first MyClass パラメーターの説明。 second MyClass パラメーターの説明。 Returns MyClass 戻り値の説明。 explicit operator int(MyClass) 演算子の説明をここに入力してください。 生成される ID 文字列は \"M:MyNamespace.MyClass.op_Explicit(MyNamespace.MyClass)~System.Int32\" です。 public static explicit operator int(MyClass myParameter) Parameters myParameter MyClass パラメーターの説明。 Returns int 戻り値の説明。"
+  },
+  "api/MyNamespace.html": {
+    "href": "api/MyNamespace.html",
+    "title": "Namespace MyNamespace | mysite",
+    "summary": "Namespace MyNamespace Classes MyClass クラス X の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass\" です。 MyClass.Nested ネストされたクラス Nested の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass.Nested\" です。 Delegates MyClass.Del デリゲート Del の説明をここに入力してください。 生成される ID 文字列は \"T:MyNamespace.MyClass.Del\" です。"
+  },
+  "api/TestDocFx.MyClass.Del.html": {
+    "href": "api/TestDocFx.MyClass.Del.html",
+    "title": "Delegate MyClass.Del | mysite",
+    "summary": "Delegate MyClass.Del Namespace TestDocFx Assembly TestDocFx.dll Enter description for delegate. ID string generated is \"T:MyNamespace.MyClass.Del\". public delegate void MyClass.Del(int i) Parameters i int Describe parameter."
+  },
+  "api/TestDocFx.MyClass.Nested.html": {
+    "href": "api/TestDocFx.MyClass.Nested.html",
+    "title": "Class MyClass.Nested | mysite",
+    "summary": "Class MyClass.Nested Namespace TestDocFx Assembly TestDocFx.dll Enter description for class Nested. ID string generated is \"T:MyNamespace.MyClass.Nested\". public class MyClass.Nested Inheritance object MyClass.Nested Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/TestDocFx.MyClass.html": {
+    "href": "api/TestDocFx.MyClass.html",
+    "title": "Class MyClass | mysite",
+    "summary": "Class MyClass Namespace TestDocFx Assembly TestDocFx.dll Enter description here for class X. ID string generated is \"T:MyNamespace.MyClass\". public class MyClass Inheritance object MyClass Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MyClass() Enter description here for the first constructor. ID string generated is \"M:MyNamespace.MyClass.#ctor\". public MyClass() MyClass(int) Enter description here for the second constructor. ID string generated is \"M:MyNamespace.MyClass.#ctor(System.Int32)\". public MyClass(int i) Parameters i int Describe parameter. Fields Message Enter description here for field Message. ID string generated is \"F:MyNamespace.MyClass.Message\". public string? Message Field Value string PI Enter description for constant PI. ID string generated is \"F:MyNamespace.MyClass.PI\". public const double PI = 3.14 Field Value double Properties this[string] Enter description for index. ID string generated is \"P:MyNamespace.MyClass.Item(System.String)\". public int this[string s] { get; } Parameters s string Property Value int Prop Enter description for property. ID string generated is \"P:MyNamespace.MyClass.Prop\". public int Prop { get; set; } Property Value int Methods AnotherMethod(short[], int[,]) Enter description for method AnotherMethod. ID string generated is \"M:MyNamespace.MyClass.AnotherMethod(System.Int16[],System.Int32[0:,0:])\". public int AnotherMethod(short[] array1, int[,] array) Parameters array1 short[] Describe parameter. array int[,] Describe parameter. Returns int Describe return value. Func() Enter description for method Func. ID string generated is \"M:MyNamespace.MyClass.Func\". public int Func() Returns int Describe return value. Events OnHappened Enter description for event. ID string generated is \"E:MyNamespace.MyClass.OnHappened\". public event MyClass.Del? OnHappened Event Type MyClass.Del Operators operator +(MyClass, MyClass) Enter description for operator. ID string generated is \"M:MyNamespace.MyClass.op_Addition(MyNamespace.MyClass,MyNamespace.MyClass)\". public static MyClass operator +(MyClass first, MyClass second) Parameters first MyClass Describe parameter. second MyClass Describe parameter. Returns MyClass Describe return value. explicit operator int(MyClass) Enter description for operator. ID string generated is \"M:MyNamespace.MyClass.op_Explicit(MyNamespace.MyClass)~System.Int32\". public static explicit operator int(MyClass myParameter) Parameters myParameter MyClass Describe parameter. Returns int Describe return value."
+  },
+  "api/TestDocFx.User.html": {
+    "href": "api/TestDocFx.User.html",
+    "title": "Class User | mysite",
+    "summary": "Class User Namespace TestDocFx Assembly TestDocFx.dll ユーザーを表します。 public class User Inheritance object User Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks ID と名前を保持するシンプルなエンティティです。 Properties Id ユーザーID public int Id { get; set; } Property Value int Name ユーザー名 public string Name { get; set; } Property Value string Methods GetDisplayName() 名前を取得します。 public string GetDisplayName() Returns string ユーザー名の文字列"
+  },
+  "api/TestDocFx.html": {
+    "href": "api/TestDocFx.html",
+    "title": "Namespace TestDocFx | mysite",
+    "summary": "Namespace TestDocFx Classes User ユーザーを表します。"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | mysite",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | mysite",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | mysite",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
