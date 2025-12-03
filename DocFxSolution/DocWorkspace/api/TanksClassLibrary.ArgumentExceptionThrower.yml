@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: TanksClassLibrary.ArgumentExceptionThrower
+  commentId: T:TanksClassLibrary.ArgumentExceptionThrower
+  id: ArgumentExceptionThrower
+  parent: TanksClassLibrary
+  children:
+  - TanksClassLibrary.ArgumentExceptionThrower.IfLessThan``1(``0,``0,System.String,System.String,System.String,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: ArgumentExceptionThrower
+  nameWithType: ArgumentExceptionThrower
+  fullName: TanksClassLibrary.ArgumentExceptionThrower
+  type: Class
+  source:
+    remote:
+      path: DocFxSolution/src/ClassLibraryProject/src/ArgumentExceptionThrower.cs
+      branch: CreateClassLibrary
+      repo: https://github.com/StudioIzumiJP/ScriptReferenceByDocFx.git
+    id: ArgumentExceptionThrower
+    path: ../src/ClassLibraryProject/src/ArgumentExceptionThrower.cs
+    startLine: 9
+  assemblies:
+  - ClassLibraryProject
+  namespace: TanksClassLibrary
+  summary: 引数の検証を行い、条件を満たさない場合に例外をスローする機能を提供します。
+  example: []
+  syntax:
+    content: public static class ArgumentExceptionThrower
+    content.vb: Public Module ArgumentExceptionThrower
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan``1(``0,``0,System.String,System.String,System.String,System.Exception)
+  commentId: M:TanksClassLibrary.ArgumentExceptionThrower.IfLessThan``1(``0,``0,System.String,System.String,System.String,System.Exception)
+  id: IfLessThan``1(``0,``0,System.String,System.String,System.String,System.Exception)
+  parent: TanksClassLibrary.ArgumentExceptionThrower
+  langs:
+  - csharp
+  - vb
+  name: IfLessThan<T>(T, T, string?, string?, string?, Exception?)
+  nameWithType: ArgumentExceptionThrower.IfLessThan<T>(T, T, string?, string?, string?, Exception?)
+  fullName: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan<T>(T, T, string?, string?, string?, System.Exception?)
+  type: Method
+  source:
+    remote:
+      path: DocFxSolution/src/ClassLibraryProject/src/ArgumentExceptionThrower.cs
+      branch: CreateClassLibrary
+      repo: https://github.com/StudioIzumiJP/ScriptReferenceByDocFx.git
+    id: IfLessThan
+    path: ../src/ClassLibraryProject/src/ArgumentExceptionThrower.cs
+    startLine: 37
+  assemblies:
+  - ClassLibraryProject
+  namespace: TanksClassLibrary
+  summary: 左辺の値が右辺の値より小さい場合、<xref href="System.ArgumentOutOfRangeException" data-throw-if-not-resolved="false"></xref> をスローします。
+  remarks: 本メソッドは <xref href="System.IComparable%601.CompareTo(%600)" data-throw-if-not-resolved="false"></xref> の結果に基づいて判定を行います。
+  example:
+  - >-
+    値が指定した下限値を下回っていないか検証する例です。
+
+    <pre><code class="lang-csharp">void SetAge(int age)
+
+    {
+        // age が 0 より小さい場合、例外をスローします。
+        ArgumentExceptionThrower.IfLessThan(age, 0);
+    }</code></pre>
+  syntax:
+    content: 'public static void IfLessThan<T>(T lhs, T rhs, string? expression1 = null, string? expression2 = null, string? message = null, Exception? innerException = null) where T : IComparable<T>'
+    parameters:
+    - id: lhs
+      type: '{T}'
+      description: 検証対象の値（左辺値）。
+    - id: rhs
+      type: '{T}'
+      description: 比較基準となる値（右辺値）。この値以上である必要があります。
+    - id: expression1
+      type: System.String
+      description: 呼び出し元の左辺式のソースコード表現。<br />通常は <xref href="System.Runtime.CompilerServices.CallerArgumentExpressionAttribute" data-throw-if-not-resolved="false"></xref> によって自動的に設定されます。
+    - id: expression2
+      type: System.String
+      description: 呼び出し元の右辺式のソースコード表現。<br />通常は <xref href="System.Runtime.CompilerServices.CallerArgumentExpressionAttribute" data-throw-if-not-resolved="false"></xref> によって自動的に設定されます。
+    - id: message
+      type: System.String
+      description: 例外に含める追加のメッセージ。
+    - id: innerException
+      type: System.Exception
+      description: 内部例外。
+    typeParameters:
+    - id: T
+      description: 比較を行う値の型。<xref href="System.IComparable%601" data-throw-if-not-resolved="false"></xref> を実装している必要があります。
+    content.vb: Public Shared Sub IfLessThan(Of T As IComparable(Of T))(lhs As T, rhs As T, expression1 As String = Nothing, expression2 As String = Nothing, message As String = Nothing, innerException As Exception = Nothing)
+  overload: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: <code class="paramref">lhs</code> が <code class="paramref">rhs</code> より小さい場合。
+  nameWithType.vb: ArgumentExceptionThrower.IfLessThan(Of T)(T, T, String, String, String, Exception)
+  fullName.vb: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan(Of T)(T, T, String, String, String, System.Exception)
+  name.vb: IfLessThan(Of T)(T, T, String, String, String, Exception)
+references:
+- uid: TanksClassLibrary
+  commentId: N:TanksClassLibrary
+  href: TanksClassLibrary.html
+  name: TanksClassLibrary
+  nameWithType: TanksClassLibrary
+  fullName: TanksClassLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+  commentId: T:System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+  href: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.html
+  name: CallerArgumentExpressionAttribute
+  nameWithType: CallerArgumentExpressionAttribute
+  fullName: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan*
+  commentId: Overload:TanksClassLibrary.ArgumentExceptionThrower.IfLessThan
+  href: TanksClassLibrary.ArgumentExceptionThrower.html#TanksClassLibrary_ArgumentExceptionThrower_IfLessThan__1___0___0_System_String_System_String_System_String_System_Exception_
+  name: IfLessThan
+  nameWithType: ArgumentExceptionThrower.IfLessThan
+  fullName: TanksClassLibrary.ArgumentExceptionThrower.IfLessThan
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

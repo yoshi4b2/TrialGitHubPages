@@ -1,0 +1,256 @@
+{
+  "source_base_path": "C:/Users/yoshi_2gsaced/WorkSpace/GitHub/TrialGitHubPages/DocFxSolution/DocWorkspace",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppProject.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppProject.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ConsoleAppProject.Program",
+      "Summary": "<p sourcefile=\"api/ConsoleAppProject.Program.yml\" sourcestartlinenumber=\"1\">アプリケーションのエントリーポイントを提供するクラス</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppProject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ConsoleAppProject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "System.Runtime.CompilerServices.CallerArgumentExpressionAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute",
+      "Summary": "<p sourcefile=\"api/System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that compiler support for a particular feature is required for the location where this attribute is applied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Runtime.CompilerServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Runtime.CompilerServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "System.Runtime.CompilerServices",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.ArgumentExceptionThrower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.ArgumentExceptionThrower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.ArgumentExceptionThrower",
+      "Summary": "<p sourcefile=\"api/TanksClassLibrary.ArgumentExceptionThrower.yml\" sourcestartlinenumber=\"1\">引数の検証を行い、条件を満たさない場合に例外をスローする機能を提供します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.IValueGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.IValueGetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.IValueGetter<T>",
+      "Summary": "<p sourcefile=\"api/TanksClassLibrary.IValueGetter-1.yml\" sourcestartlinenumber=\"1\">値を取得するための汎用インターフェイスです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.Logic.Numerics.NumericsLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.Logic.Numerics.NumericsLogic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.Logic.Numerics.NumericsLogic",
+      "Summary": "<p sourcefile=\"api/TanksClassLibrary.Logic.Numerics.NumericsLogic.yml\" sourcestartlinenumber=\"1\">数値計算に関する汎用的なロジックを提供する静的クラスです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.Logic.Numerics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.Logic.Numerics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.Logic.Numerics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.ValueObject.PositiveOrZeroDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.ValueObject.PositiveOrZeroDouble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.ValueObject.PositiveOrZeroDouble",
+      "Summary": "<p sourcefile=\"api/TanksClassLibrary.ValueObject.PositiveOrZeroDouble.yml\" sourcestartlinenumber=\"1\">0 以上の倍精度浮動小数点数を表現する値オブジェクトです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.ValueObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.ValueObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary.ValueObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TanksClassLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TanksClassLibrary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TanksClassLibrary",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

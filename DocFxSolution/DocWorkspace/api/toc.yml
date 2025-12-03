@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: ConsoleAppProject
+  name: ConsoleAppProject
+  type: Namespace
+  items:
+  - uid: ConsoleAppProject.Program
+    name: Program
+    type: Class
+memberLayout: SamePage

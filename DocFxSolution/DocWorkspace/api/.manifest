@@ -1,0 +1,5 @@
+{
+  "ConsoleAppProject": "ConsoleAppProject.yml",
+  "ConsoleAppProject.Program": "ConsoleAppProject.Program.yml",
+  "ConsoleAppProject.Program.Main(System.String[])": "ConsoleAppProject.Program.yml"
+}

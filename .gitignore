@@ -417,10 +417,7 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# Docfx build output ignore
-_site/
-api/
-.manifest
+# Docfx build output ignore.manifest
 .cache/
 .temp/
 .logs/

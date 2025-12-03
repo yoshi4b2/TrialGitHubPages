@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: TanksClassLibrary
+  commentId: N:TanksClassLibrary
+  id: TanksClassLibrary
+  children:
+  - TanksClassLibrary.ArgumentExceptionThrower
+  - TanksClassLibrary.IValueGetter`1
+  langs:
+  - csharp
+  - vb
+  name: TanksClassLibrary
+  nameWithType: TanksClassLibrary
+  fullName: TanksClassLibrary
+  type: Namespace
+  assemblies:
+  - ClassLibraryProject
+references:
+- uid: TanksClassLibrary.ArgumentExceptionThrower
+  commentId: T:TanksClassLibrary.ArgumentExceptionThrower
+  href: TanksClassLibrary.ArgumentExceptionThrower.html
+  name: ArgumentExceptionThrower
+  nameWithType: ArgumentExceptionThrower
+  fullName: TanksClassLibrary.ArgumentExceptionThrower
+- uid: TanksClassLibrary.IValueGetter`1
+  commentId: T:TanksClassLibrary.IValueGetter`1
+  href: TanksClassLibrary.IValueGetter-1.html
+  name: IValueGetter<T>
+  nameWithType: IValueGetter<T>
+  fullName: TanksClassLibrary.IValueGetter<T>
+  nameWithType.vb: IValueGetter(Of T)
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T)
+  name.vb: IValueGetter(Of T)
+  spec.csharp:
+  - uid: TanksClassLibrary.IValueGetter`1
+    name: IValueGetter
+    href: TanksClassLibrary.IValueGetter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TanksClassLibrary.IValueGetter`1
+    name: IValueGetter
+    href: TanksClassLibrary.IValueGetter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

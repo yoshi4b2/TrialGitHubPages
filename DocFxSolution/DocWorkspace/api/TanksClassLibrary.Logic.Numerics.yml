@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: TanksClassLibrary.Logic.Numerics
+  commentId: N:TanksClassLibrary.Logic.Numerics
+  id: TanksClassLibrary.Logic.Numerics
+  children:
+  - TanksClassLibrary.Logic.Numerics.NumericsLogic
+  langs:
+  - csharp
+  - vb
+  name: TanksClassLibrary.Logic.Numerics
+  nameWithType: TanksClassLibrary.Logic.Numerics
+  fullName: TanksClassLibrary.Logic.Numerics
+  type: Namespace
+  assemblies:
+  - ClassLibraryProject
+references:
+- uid: TanksClassLibrary.Logic.Numerics.NumericsLogic
+  commentId: T:TanksClassLibrary.Logic.Numerics.NumericsLogic
+  href: TanksClassLibrary.Logic.Numerics.NumericsLogic.html
+  name: NumericsLogic
+  nameWithType: NumericsLogic
+  fullName: TanksClassLibrary.Logic.Numerics.NumericsLogic

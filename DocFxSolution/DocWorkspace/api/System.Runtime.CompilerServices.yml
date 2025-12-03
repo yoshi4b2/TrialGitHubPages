@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Runtime.CompilerServices
+  commentId: N:System.Runtime.CompilerServices
+  id: System.Runtime.CompilerServices
+  children:
+  - System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+  - System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute
+  langs:
+  - csharp
+  - vb
+  name: System.Runtime.CompilerServices
+  nameWithType: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  type: Namespace
+  assemblies:
+  - ClassLibraryProject
+references:
+- uid: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+  commentId: T:System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+  href: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.html
+  name: CallerArgumentExpressionAttribute
+  nameWithType: CallerArgumentExpressionAttribute
+  fullName: System.Runtime.CompilerServices.CallerArgumentExpressionAttribute
+- uid: System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute
+  commentId: T:System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute
+  href: System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.html
+  name: CompilerFeatureRequiredAttribute
+  nameWithType: CompilerFeatureRequiredAttribute
+  fullName: System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute

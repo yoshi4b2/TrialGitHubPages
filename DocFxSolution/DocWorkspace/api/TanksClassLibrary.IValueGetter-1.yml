@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: TanksClassLibrary.IValueGetter`1
+  commentId: T:TanksClassLibrary.IValueGetter`1
+  id: IValueGetter`1
+  parent: TanksClassLibrary
+  children:
+  - TanksClassLibrary.IValueGetter`1.Value
+  langs:
+  - csharp
+  - vb
+  name: IValueGetter<T>
+  nameWithType: IValueGetter<T>
+  fullName: TanksClassLibrary.IValueGetter<T>
+  type: Interface
+  source:
+    remote:
+      path: DocFxSolution/src/ClassLibraryProject/src/UtilityType/IValueGetter.cs
+      branch: CreateClassLibrary
+      repo: https://github.com/StudioIzumiJP/ScriptReferenceByDocFx.git
+    id: IValueGetter
+    path: ../src/ClassLibraryProject/src/UtilityType/IValueGetter.cs
+    startLine: 25
+  assemblies:
+  - ClassLibraryProject
+  namespace: TanksClassLibrary
+  summary: 値を取得するための汎用インターフェイスです。
+  remarks: >-
+    このインターフェイスは値の読み取り専用アクセスを提供し、変更処理は持ちません。
+
+    通常はDI構成、設定値の参照、ステータス管理などで利用します。
+  example:
+  - >-
+    使用例: <xref href="TanksClassLibrary.IValueGetter%601" data-throw-if-not-resolved="false"></xref> を実装して値を公開する例。
+
+    <pre><code class="lang-csharp">public class ScoreProvider : IValueGetter&lt;int&gt;
+
+    {
+        private int _score = 100;
+        public int Value =&gt; _score;
+    }
+
+
+    var provider = new ScoreProvider();
+
+    int score = provider.Value; // 100が取得される</code></pre>
+  syntax:
+    content: public interface IValueGetter<out T>
+    typeParameters:
+    - id: T
+      description: 取得される値の型を指定します。
+    content.vb: Public Interface IValueGetter(Of Out T)
+  nameWithType.vb: IValueGetter(Of T)
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T)
+  name.vb: IValueGetter(Of T)
+- uid: TanksClassLibrary.IValueGetter`1.Value
+  commentId: P:TanksClassLibrary.IValueGetter`1.Value
+  id: Value
+  parent: TanksClassLibrary.IValueGetter`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IValueGetter<T>.Value
+  fullName: TanksClassLibrary.IValueGetter<T>.Value
+  type: Property
+  source:
+    remote:
+      path: DocFxSolution/src/ClassLibraryProject/src/UtilityType/IValueGetter.cs
+      branch: CreateClassLibrary
+      repo: https://github.com/StudioIzumiJP/ScriptReferenceByDocFx.git
+    id: Value
+    path: ../src/ClassLibraryProject/src/UtilityType/IValueGetter.cs
+    startLine: 42
+  assemblies:
+  - ClassLibraryProject
+  namespace: TanksClassLibrary
+  summary: 値を取得します。
+  example:
+  - >-
+    使用例: プロパティ <xref href="TanksClassLibrary.IValueGetter%601.Value" data-throw-if-not-resolved="false"></xref> の参照方法。
+
+    <pre><code class="lang-csharp">IValueGetter&lt;string&gt; getter = new ConfigStringGetter("Player");
+
+    string name = getter.Value;</code></pre>
+  syntax:
+    content: T Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+      description: 現在保持している値を返します。
+    content.vb: ReadOnly Property Value As T
+  overload: TanksClassLibrary.IValueGetter`1.Value*
+  nameWithType.vb: IValueGetter(Of T).Value
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T).Value
+references:
+- uid: TanksClassLibrary.IValueGetter`1
+  commentId: T:TanksClassLibrary.IValueGetter`1
+  href: TanksClassLibrary.IValueGetter-1.html
+  name: IValueGetter<T>
+  nameWithType: IValueGetter<T>
+  fullName: TanksClassLibrary.IValueGetter<T>
+  nameWithType.vb: IValueGetter(Of T)
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T)
+  name.vb: IValueGetter(Of T)
+  spec.csharp:
+  - uid: TanksClassLibrary.IValueGetter`1
+    name: IValueGetter
+    href: TanksClassLibrary.IValueGetter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: TanksClassLibrary.IValueGetter`1
+    name: IValueGetter
+    href: TanksClassLibrary.IValueGetter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TanksClassLibrary
+  commentId: N:TanksClassLibrary
+  href: TanksClassLibrary.html
+  name: TanksClassLibrary
+  nameWithType: TanksClassLibrary
+  fullName: TanksClassLibrary
+- uid: TanksClassLibrary.IValueGetter`1.Value
+  commentId: P:TanksClassLibrary.IValueGetter`1.Value
+  href: TanksClassLibrary.IValueGetter-1.html#TanksClassLibrary_IValueGetter_1_Value
+  name: Value
+  nameWithType: IValueGetter<T>.Value
+  fullName: TanksClassLibrary.IValueGetter<T>.Value
+  nameWithType.vb: IValueGetter(Of T).Value
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T).Value
+- uid: TanksClassLibrary.IValueGetter`1.Value*
+  commentId: Overload:TanksClassLibrary.IValueGetter`1.Value
+  href: TanksClassLibrary.IValueGetter-1.html#TanksClassLibrary_IValueGetter_1_Value
+  name: Value
+  nameWithType: IValueGetter<T>.Value
+  fullName: TanksClassLibrary.IValueGetter<T>.Value
+  nameWithType.vb: IValueGetter(Of T).Value
+  fullName.vb: TanksClassLibrary.IValueGetter(Of T).Value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: TanksClassLibrary.ValueObject
+  commentId: N:TanksClassLibrary.ValueObject
+  id: TanksClassLibrary.ValueObject
+  children:
+  - TanksClassLibrary.ValueObject.PositiveOrZeroDouble
+  langs:
+  - csharp
+  - vb
+  name: TanksClassLibrary.ValueObject
+  nameWithType: TanksClassLibrary.ValueObject
+  fullName: TanksClassLibrary.ValueObject
+  type: Namespace
+  assemblies:
+  - ClassLibraryProject
+references:
+- uid: TanksClassLibrary.ValueObject.PositiveOrZeroDouble
+  commentId: T:TanksClassLibrary.ValueObject.PositiveOrZeroDouble
+  parent: TanksClassLibrary.ValueObject
+  href: TanksClassLibrary.ValueObject.PositiveOrZeroDouble.html
+  name: PositiveOrZeroDouble
+  nameWithType: PositiveOrZeroDouble
+  fullName: TanksClassLibrary.ValueObject.PositiveOrZeroDouble
+- uid: TanksClassLibrary.ValueObject
+  commentId: N:TanksClassLibrary.ValueObject
+  href: TanksClassLibrary.html
+  name: TanksClassLibrary.ValueObject
+  nameWithType: TanksClassLibrary.ValueObject
+  fullName: TanksClassLibrary.ValueObject
+  spec.csharp:
+  - uid: TanksClassLibrary
+    name: TanksClassLibrary
+    href: TanksClassLibrary.html
+  - name: .
+  - uid: TanksClassLibrary.ValueObject
+    name: ValueObject
+    href: TanksClassLibrary.ValueObject.html
+  spec.vb:
+  - uid: TanksClassLibrary
+    name: TanksClassLibrary
+    href: TanksClassLibrary.html
+  - name: .
+  - uid: TanksClassLibrary.ValueObject
+    name: ValueObject
+    href: TanksClassLibrary.ValueObject.html
